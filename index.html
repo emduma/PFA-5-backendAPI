@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Finder</title>
+</head>
+<body>
+<h1>Add User:</h1>
+<form id="addUserForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="button" id="addUserBtn">Add User</button>
+</form>
+
+<br>
+
+<h1>Add Cafe:</h1>
+<form id="addCafeForm">
+    <label for="name">Cafe Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="music">Music?:</label>
+    <select id="music" name="music">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+
+    <label for="wifi">Wi-Fi?:</label>
+    <select id="wifi" name="wifi">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+
+    <button type="button">Add Cafe</button>
+</form>
+
+<script src="script.js"></script>
+<script src="server.js"></script>
+
+</body>
+</html>
