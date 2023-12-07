@@ -13,7 +13,7 @@ app.use(cors());
 const connection = mysql2.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '12M4nUn1t3d99#',
+    password: [password],
     database: 'pfa5_cafe_finder',
 });
 
